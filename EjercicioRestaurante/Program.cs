@@ -85,6 +85,7 @@ namespace Ejercicios.EjercicioRestaurante
             var bebida = CrearPlatillo.GenerarPlatillo(Platillos.Bebida, opcionesBebida);
             carrito.Add(bebida);
 
+            // Imprimir el carrito
             carrito.ForEach(item => Console.WriteLine(item.GetPlatilloTipo()));
 
         }
